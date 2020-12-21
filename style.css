@@ -1,0 +1,78 @@
+.container .loginform input[type='email'],
+.container .loginform input[type='password']
+{
+    padding: 16px;
+    width: 330px;
+    margin: 10px;
+}
+.container .loginform input[type='submit']
+{
+    width: 340px;
+    padding: 16px;
+}
+.loginform #link
+{
+    padding: 20px;
+}
+.language
+{
+    padding-top: 40px;
+    padding-bottom:40px;
+    font-size: 15px;
+}
+.loginform a
+{
+    text-decoration: none;
+}
+#a1 input[type='submit']
+{
+    background-color: royalblue;
+    color: cornsilk;
+    width: 360px;
+    border-radius: 5px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+#a2 input[type='submit']
+{
+    background: limegreen;
+    width:200px;
+    color: cornsilk;
+    border-radius: 5px;
+    margin: 20px;
+}
+.loginform hr
+{
+    margin-top: 10px;
+}
+.container .logomoto h1
+{
+    color: dodgerblue;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 50px;
+    font-weight:1400;
+    text-align: left;
+    padding-left: 50px;
+}
+p
+{
+    color:darkslategray;
+    font-family: sans-serif;
+    font-size: 30px;
+    padding-left: 50px;
+    font-weight: lighter;
+    text-align: left;
+}
+form
+{
+    margin-left: 50px;
+}
+.language .foot,.language .copyright
+{
+    padding-top: 10px;
+    padding-left: 50px;
+}
+.container .loginform h5
+{
+    text-align: center;
+}

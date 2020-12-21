@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Facebook - log in or sign up</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        *
+        {
+            margin: 0;
+            padding: 0;
+        }
+        body
+        {
+            background:cornsilk;
+        }
+        .container
+        {
+            display: flex;
+            flex-direction: row;
+        }
+        .container .logomoto
+        {
+            text-align: center;
+            padding-top: 100px;
+        }
+        .container .loginform form
+        {
+            width: 380px;
+            border: 2px solid gray;
+            text-align: center;
+            justify-content: center;
+            background: whitesmoke;
+            border-radius: 10px;
+            padding: 10px;   
+        }
+        .logomoto
+        {
+            flex: 1;
+            height: 70vh;
+        }
+        .loginform
+        {
+            flex: 1;
+            height: 70vh;
+            padding-top: 100px;
+        }
+        .language
+        {
+            height: 15vh;
+        }
+        @media (max-width: 900px)
+        {
+            .container
+            {
+                flex-direction: column;
+            }
+            .logomoto
+            {
+                padding: 20px;
+                text-align: center;
+            }
+            .loginform 
+            {
+                padding: 20px;
+                text-align: center;
+            }
+            .language
+            {
+                padding: 20px;
+                text-align: justify;
+            }
+            .container .logomoto h1, .logomoto p
+            {
+                text-align: center;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="logomoto">
+            <div>
+            <h1>facebook</h1>
+            </div>
+            <div>
+            <p>Facebook helps you connect and 
+share with the people in your life.</p>
+            </div>
+        </div>
+        <div class="loginform">
+            <form>
+                <table>
+                <tr>   
+                    <td><input type="email" placeholder="Email address or phone number"></td>
+                </tr>
+                <tr>
+                    <td><input type="password" placeholder="Password"></td>
+                </tr>
+                <tr id="a1">
+                    <td><input type="submit" value='Log In'></td>
+                </tr>
+                <tr>
+                    <td><a href="#">Forgetten password?</a></td>
+                </tr>
+                
+                <tr id="a2">
+                    <td><input type="submit" value="Create New Account"></td>
+                </tr>
+            </table>
+            </form>
+            <h5 id="link"><a href="#">Create a Page&nbsp;</a>for a celebrity, band or business.</h5>
+        </div>
+    </div>
+    <div class="language">
+        <footer class="foot">
+            <nav class="lang">
+                <a href="#">English</a>
+                <a href="#" title="Kannada">ಕನ್ನಡ</a>
+                <a href="#" title="Urdu">اردو</a>
+                <a href="#" title="Marathi">मराठी</a>
+                <a href="#" title="Telugu">తెలుగు</a>
+                <a href="#" title="Hindi">हिंदी</a>
+                <a href="#" title="Punjabi">ਪੰਜਾਬੀ</a>
+                <a href="#" title="Gujarathi">ગુજરતી</a>
+                <a href="#" title="Bengali">বাংলা</a>
+                <a href="#" title="Malayalam">മലയാളം</a>
+                <a href="#" title="Tamil">தமிழ்</a>
+            </nav>
+        </footer>
+        <div class="copyright">
+            Facebook &copy; 2020
+        </div>
+    </div>
+</body>
+</html>
